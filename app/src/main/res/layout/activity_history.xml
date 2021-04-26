@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/busqueda"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold" />
 
         <EditText
@@ -29,13 +29,13 @@
             android:layout_marginBottom="20dp"
             android:ems="10"
 
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:src="@drawable/ic_baseline_keyboard_voice_24" />
+            android:contentDescription="@string/microphone"
+            android:src="@drawable/image_mic" />
 
     </LinearLayout>
 
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/resultados"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
         <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

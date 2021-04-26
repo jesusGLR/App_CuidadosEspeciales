@@ -12,6 +12,7 @@
     <color name="gray">#949494</color>
     <color name="principal">#4cbec4</color>
     <color name="sec">#CAD0DA</color>
-
+    <color name="colorAccent">#4aeca0</color>
+    <color name="blueBajo">#CCEDEF</color>
 
 </resources>
