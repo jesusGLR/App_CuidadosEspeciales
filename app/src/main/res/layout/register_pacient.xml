@@ -14,18 +14,19 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="40dp"
         android:layout_marginRight="15dp"
-        android:orientation="vertical"
-        android:background="@drawable/white_card">
+        android:background="@drawable/white_card"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/nombre"
-            android:gravity="center"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/nombre"
             android:textColor="@color/black"
             android:textSize="24sp"
-            android:layout_marginTop="15dp"
-            />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/nombrePaciente"
@@ -44,13 +45,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/edad"
-            android:gravity="center"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/edad"
             android:textColor="@color/black"
             android:textSize="24sp"
-            android:layout_marginTop="15dp"
-            />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/edad"
@@ -69,13 +70,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/peso"
-            android:gravity="center"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/peso"
             android:textColor="@color/black"
             android:textSize="24sp"
-            android:layout_marginTop="15dp"
-            />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/peso"
@@ -94,13 +95,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/estatura"
-            android:gravity="center"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/estatura"
             android:textColor="@color/black"
             android:textSize="24sp"
-            android:layout_marginTop="15dp"
-            />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/estatura"
@@ -119,13 +120,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/padecimientos"
-            android:gravity="center"
+            android:layout_marginTop="15dp"
             android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/padecimientos"
             android:textColor="@color/black"
             android:textSize="24sp"
-            android:layout_marginTop="15dp"
-            />
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/padecimientos"
@@ -155,15 +156,11 @@
             android:textSize="25sp" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:background="@drawable/bordes_redondos"
-            android:text="@string/regresar"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
             android:layout_marginTop="15dp"
-
+            android:gravity="center"
+            android:text="@string/regresar"
             />
 
 
